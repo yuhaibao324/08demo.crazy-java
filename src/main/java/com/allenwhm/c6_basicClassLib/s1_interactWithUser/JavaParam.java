@@ -16,6 +16,7 @@ public class JavaParam {
 //            System.out.println(arg);
 //        }
 
-        Arrays.asList(args).stream().forEach(System.out::println);
+//        Arrays.asList(args).stream().forEach(System.out::println);
+        Arrays.asList(args).forEach(System.out::println);
     }
 }
