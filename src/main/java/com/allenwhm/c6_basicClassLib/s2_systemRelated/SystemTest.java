@@ -16,7 +16,7 @@ import java.util.Properties;
 public class SystemTest {
 
     public static void main(String[] args) throws IOException {
-        /*Map<String, String> env = System.getenv();
+        Map<String, String> env = System.getenv();
         for (String name : env.keySet()) {
             System.out.println(name + " : " + env.get(name));
         }
@@ -28,7 +28,7 @@ public class SystemTest {
         props.store(new FileOutputStream("props.txt"), "System Properties");
 
         System.out.println("-----------");
-        System.out.println(System.getProperty("os.name"));*/
+        System.out.println(System.getProperty("os.name"));
 
         String s0 = "Hello";
         System.out.println(System.identityHashCode(s0));
