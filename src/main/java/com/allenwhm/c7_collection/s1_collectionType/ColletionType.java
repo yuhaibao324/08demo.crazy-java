@@ -19,6 +19,7 @@ public class ColletionType {
         List l1 = new ArrayList();
         List l2 = new LinkedList();
         List l3 = new Vector();
+        l1.toArray();
 
 
     }
