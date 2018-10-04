@@ -14,5 +14,6 @@ public class MathTest {
         System.out.println(Math.floor(2.3));
         System.out.println(Math.round(2.3));
         System.out.println(Math.random());
+        System.out.println(Math.exp(1));
     }
 }
